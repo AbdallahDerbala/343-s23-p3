@@ -9,6 +9,12 @@
     font-weight: 600;
     margin: 1.25em 0;
   }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    margin: 1.25em 0;
+  }
   .container {
     width: 100%;
     padding: 3em 1.8em;
@@ -24,4 +30,10 @@
     padding: 0.7em;
     border-radius: 0.5em;
     font-weight: 300;
+  }
+  #result h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    margin: 1.25em 0;
   }
