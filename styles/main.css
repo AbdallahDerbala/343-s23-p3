@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container {
+    width: 100%;
+    backdrop-filter: blur(10px);
+    padding: 3em 1.8em;
+    border: none;
+    text-align: center;
+  }
+  .search-container {
+    font-size: 1em;
+    outline: none;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+  }
+  .search-container input,
+  .search-container button {
+    padding: 0.7em;
+    border-radius: 0.5em;
+    font-weight: 300;
+  }
+  #result h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    margin: 1.25em 0;
+  }
